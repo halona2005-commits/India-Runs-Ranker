@@ -1,0 +1,59 @@
+team_name: "ELITECODE"
+
+primary_contact:
+name: "MANNITHA J"
+email: "mannithagowda10@gmail.com"
+phone: "+91-8147085157"
+role: "Team Lead"
+
+team_members:
+
+* name: "MANNITHA J"
+  email: "mannithagowda10@gmail.com"
+  role: "Team Lead & Documentation"
+
+* name: "HALONA ANN SIJU"
+  email: "halona2005@gmail.com"
+  role: "AI/ML & Ranking Logic"
+
+* name: "HARIPRIYA K P"
+  email: "haripriyakp06@gmail.com"
+  role: "GitHub & Testing"
+
+github_repo: "https://github.com/YOUR_USERNAME/india-runs-ranker"
+
+sandbox_link: ""
+
+reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./outputs/submission.csv"
+
+compute:
+platform: "Local PC"
+cpu_cores: 4
+ram_gb: 8
+python_version: "3.11"
+uses_gpu_for_inference: false
+has_network_during_ranking: false
+
+ai_tools_used:
+
+* "ChatGPT"
+* "Claude"
+
+methodology_summary: |
+Built an AI-driven candidate ranking system for the Senior AI Engineer role.
+The ranking pipeline uses six weighted components:
+Skills Match (32%), Career Trajectory (25%), Experience Fit (15%),
+Behavioral Signals (18%), Education (5%), and Location/Notice Period (5%).
+
+The system evaluates candidate skills, proficiency, endorsements,
+career progression, company experience, recruiter engagement metrics,
+availability signals, education background, and geographic fit.
+
+Candidates are scored using a weighted composite ranking model and
+the Top 100 candidates are selected based on final ranking scores.
+
+declarations:
+read_submission_spec: true
+code_is_original_work: true
+no_collusion: true
+reproduction_tested: true
