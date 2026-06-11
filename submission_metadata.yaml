@@ -20,9 +20,7 @@ team_members:
   email: "haripriyakp06@gmail.com"
   role: "GitHub & Testing"
 
-github_repo: "https://github.com/YOUR_USERNAME/india-runs-ranker"
-
-sandbox_link: ""
+github_repo: "https://github.com/halona2005-commits/India-Runs-Ranker"
 
 reproduce_command: "python rank.py --candidates ./data/candidates.jsonl --out ./outputs/submission.csv"
 
