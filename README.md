@@ -2,8 +2,6 @@
 
 ### India.Runs Data & AI Challenge (Redrob x Hack2Skill)
 
----
-
 ## 🚀 Overview
 
 This project is an **AI-powered candidate ranking system** designed to identify the **Top 100 candidates** for a **Senior AI Engineer role**.
